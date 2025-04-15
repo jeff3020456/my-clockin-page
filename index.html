@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的打卡系統</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        button {
+            padding: 15px 32px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>歡迎來到打卡系統！</h1>
+    <p>請點擊下面的按鈕來打卡。</p>
+    <button onclick="clockIn()">上班打卡</button>
+
+    <script>
+        function clockIn() {
+            alert("打卡成功！");
+        }
+    </script>
+</body>
+</html>
